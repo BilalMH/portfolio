@@ -37,7 +37,8 @@
 
 	// Smooth scrolling for navigation links
 	$('.scrolly').scrolly({
-		speed: 1500,
+		speed: 800,
+		easing: 'linear',
 		offset: 0
 	});
 
